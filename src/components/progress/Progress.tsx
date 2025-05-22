@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress as ProgressIndicator } from '@/components/ui/progress';
-import { ChartLine, Plant, Calendar, ClockArrowUp } from 'lucide-react';
+import { ChartLine, Leaf, Calendar, ClockArrowUp } from 'lucide-react';
 
 import {
   ResponsiveContainer,
@@ -172,7 +171,7 @@ const Progress = () => {
             <Card className="lg:col-span-3">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Plant className="h-5 w-5 text-crop-green-600" />
+                  <Leaf className="h-5 w-5 text-crop-green-600" />
                   Weekly Recommendations
                 </CardTitle>
                 <CardDescription>
@@ -185,7 +184,7 @@ const Progress = () => {
                     <div key={index} className="bg-crop-green-50 border border-crop-green-100 rounded-lg p-4">
                       <div className="flex items-start gap-3">
                         <div className="mt-1 w-8 h-8 rounded-full bg-crop-green-100 flex items-center justify-center">
-                          <Plant className="h-4 w-4 text-crop-green-600" />
+                          <Leaf className="h-4 w-4 text-crop-green-600" />
                         </div>
                         <div>
                           <p className="text-gray-700">{recommendation}</p>
@@ -276,7 +275,7 @@ const Progress = () => {
             <Card className="lg:col-span-3">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Plant className="h-5 w-5 text-crop-green-600" />
+                  <Leaf className="h-5 w-5 text-crop-green-600" />
                   Monthly Recommendations
                 </CardTitle>
                 <CardDescription>
@@ -289,7 +288,7 @@ const Progress = () => {
                     <div key={index} className="bg-crop-green-50 border border-crop-green-100 rounded-lg p-4">
                       <div className="flex items-start gap-3">
                         <div className="mt-1 w-8 h-8 rounded-full bg-crop-green-100 flex items-center justify-center">
-                          <Plant className="h-4 w-4 text-crop-green-600" />
+                          <Leaf className="h-4 w-4 text-crop-green-600" />
                         </div>
                         <div>
                           <p className="text-gray-700">{recommendation}</p>

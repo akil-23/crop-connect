@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Plant, Search, Database, ChartBar } from 'lucide-react';
+import { Leaf, Search, Database, ChartBar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -32,7 +31,7 @@ const Hero = () => {
             <div className="absolute -bottom-10 -left-10 bg-white p-6 rounded-xl shadow-lg animate-fade-in transition-all duration-500 hover:shadow-xl">
               <div className="flex items-center gap-4 mb-4">
                 <div className="bg-crop-green-100 p-3 rounded-full">
-                  <Plant className="h-6 w-6 text-crop-green-600" />
+                  <Leaf className="h-6 w-6 text-crop-green-600" />
                 </div>
                 <div>
                   <h3 className="font-heading font-semibold text-gray-900">Crop Health</h3>

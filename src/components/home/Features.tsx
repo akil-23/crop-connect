@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { Plant, Search, Database, ChartBar } from 'lucide-react';
+import { Leaf, Search, Database, ChartBar } from 'lucide-react';
 
 const Features = () => {
   const featuresData = [
     {
-      icon: <Plant className="h-10 w-10 text-crop-green-500" />,
+      icon: <Leaf className="h-10 w-10 text-crop-green-500" />,
       title: 'Disease Detection',
       description: 'Upload images of your crops to identify diseases using our advanced CNN model.',
     },

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Plant, Search, Menu, X } from 'lucide-react';
+import { Leaf, Search, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo and Title */}
         <Link to="/" className="flex items-center gap-2">
-          <Plant className="h-8 w-8 text-crop-green-600" />
+          <Leaf className="h-8 w-8 text-crop-green-600" />
           <span className="font-heading font-bold text-xl md:text-2xl text-crop-green-800">Crop Connect</span>
         </Link>
 
