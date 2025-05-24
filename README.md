@@ -4,7 +4,7 @@
 
 This a website built with React and JS.
 
-Only requirement to run this in your eenvironment is the need of NPM and TypeScript
+Only requirement to run this in your environment is the need of NPM and TypeScript
 
 After making any changes please do commit the changes!!
 
